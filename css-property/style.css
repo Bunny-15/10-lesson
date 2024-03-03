@@ -1,0 +1,197 @@
+/* --- index.html ---*/
+*{
+	padding:0px;
+	margin:0px;
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+.index-page ul{
+    list-style-type: "\263B";
+}
+/* -- ul/a -- */
+.index-page ul a{
+	text-decoration:none;
+}
+.index-page ul a:hover{
+	color:red;
+	text-shadow:1px 1px 4px black;
+}
+.index-page ul a:visited{
+	color:#b5315d;
+}
+/* -- footer/a -- */
+.index-page footer a{
+	text-decoration:none;
+	font-size:18pt;
+	color:black;
+}
+.index-page footer{
+	text-align:center;
+	padding:20;
+}
+/* -- h1 -- */
+h1{
+	text-align:center;
+	background-color:#472b06;
+	padding:20px;
+	color:white;
+	text-shadow:1px 1px 4px black;
+}
+.index-page li{
+	padding:10px;
+}
+.index-page h4{
+	padding:20px 0px;
+}
+.index-page ul a:hover{
+	color:red;
+	text-shadow:1px 1px 4px black;
+}
+.index-page ul a:visited{
+	color:#b5315d;
+}
+.index-page footer a{
+	text-decoration:none;
+	font-size:18pt;
+	color:black;
+}
+.index-page footer{
+	text-align:center;
+	padding:20;
+}
+/* !!! index.html !!! */
+/* --- background.html --- */
+/* -- розмір, повторення, фотографії, блоки -- */
+.background .block{
+	height:200px;
+	width:50%;
+	float:left;
+}
+.background .b1{
+	background-color:green;
+}
+.background .b2{
+	background-image:url("image/back-612x367.jpg");
+}
+.background .b3{
+	background-image:url("image/tiling-wall.png");
+	background-repeat:no-repeat;
+}
+.background .b4{
+	background-image:url("image/background-repeat-image.jpg");
+	background-repeat:repeat-x;
+}
+.background .b5{
+	background-image:url("image/background-images-dark.jpg");
+	background-position:repeat;
+}
+.background .b6{
+	background-image:url("image/pixar-virtualbg.jpeg");
+	background-position:center;
+}
+.background .block-x{
+	background-image:url("image/pixar-virtualbg.jpeg");
+	background-attachment:fixed;
+	height:500px;
+	width:100%;
+}
+/* !!! background.html !!! */
+/* --- border.html --- */
+/* -- рамки, блоки --*/
+.border .b1{
+	height:100px;
+	width:450px;
+	border:3px solid #31D9CC;
+}
+.border .b2{
+	height:100px;
+	width:200px;
+	border:3px solid #000;
+	border-radius:10px;
+}
+.border .b3{
+	height:150px;
+	width:150px;
+	border:3px solid #9831D9;
+	border-radius:10px 30px;
+}
+/* !!! border.html !!! */
+/* --- box-shadow.html --- */
+/* -- тінь, блоки -- */
+.box-shadow .b1{
+	height:100px;
+	width:300px;
+	text-shadow:#31D9D4 0.1em 0.2em 0.1em;
+}
+.box-shadow .b2{
+	height:100px;
+	width:400px;
+	margin:3px;
+	box-shadow: 10px 5px red, -0.1em 0 .4em blue;
+}
+.box-shadow .b3{
+	height:150px;
+	width:150px;
+	color:pink;
+	background: rgba(255, 255, 255, 0.5);
+}
+/* !!! box-shadow.html !!! */
+/* --- text.html --- */
+/* -- p -- */
+.text-page .p1{
+	font-size:24px;
+}
+.text-page .p2{
+	font-weight:bold;
+}
+.text-page .p3{
+	font-style:italic;
+}
+.text-page .p4{
+	font-family:sans-serif;
+}
+.text-page .p5{
+	color:#31D9D4;
+}
+.text-page .p6{
+	text-decoration:underline;
+}
+.text-page .p7{
+	text-transform:uppercase;
+}
+.text-page .p8{
+	text-align:right;
+}
+.text-page .p9{
+	line-height:50px;
+}
+/* -- img -- */
+.text-page img{
+	vertical-align:middle;
+}
+/* !!! text.html !!! */
+/* --- width-height.html --- */
+/* -- вирівнювання, розмір, колір, відступи блоків -- */
+.width-height .b1{
+	height:100px;
+	width:300px;
+	text-align:center;
+	color:gray;
+}
+.width-height .b2{
+	height:100px;
+	width:400px;
+	text-align:center;
+	color:green;
+	margin: 20px;
+}
+.width-height .b3{
+	height:150px;
+	width:150px;
+	text-align:center;
+	color:#8031D9;
+	padding:15px;
+}
+/* !!! width-height.html !!! */
